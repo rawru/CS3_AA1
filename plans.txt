@@ -1,0 +1,10 @@
+pages
+1 = home
+2 = history
+3 = instruments hub
+4 = composers hub
+5 = pieces hub
+6 = body of music
+
+composers after
+then instruments
