@@ -5,6 +5,23 @@ pages
 4 = composers hub
 5 = pieces hub
 6 = body of music
+7 = references
+
+8-11 = history
+12-41 = instruments
+42-111 = composers
 
 composers after
 then instruments
+
+GET PICTURES FOR ALL FIRST 40 COMPOSERS
+
+logo = favicon
+
+FAVICON::
+
+favicon: the pic on the head
+
+https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page
+
+<link rel="shortcut icon" href="/favicon.ico" />

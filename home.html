@@ -7,11 +7,156 @@
 		<meta name="Ralph Louie O. Gatan">
 		<meta section="Beryllium">
 		<title>Hello, Classy-class!</title>
+		<link rel="shortcut icon" href="Images/favicon static.png"/>
+		<style type="text/css">
+			body {
+				margin: 0;
+				background-color: beige;
+			}
+
+			table {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				border-collapse: collapse;
+				border-spacing: 0;
+				background-color: black;
+			}
+
+			td {
+				margin: 0;
+				padding: 0;
+				width: 50%;
+				height: 350px;
+				position: relative;
+				color: white;
+				text-align: center;
+			}
+
+			td img {
+				object-fit: cover;
+				width: 100%;
+				height: 350px;
+				margin: 0;
+				padding: 0;
+			}
+
+			#comp {
+				object-position: 0 4%;
+			}
+
+			.tcont {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				margin: 0;
+				font-size: 3em;
+				padding: 0;
+				margin: 0;
+			}
+
+			.intro {
+				font-size: 1.2em;
+				text-align: justify;
+				width: 90%;
+				color: black;
+				font-weight: bold;
+				padding: 5px;
+				border: 4px inset darkblue;
+			}
+
+			#head {
+				box-sizing: border-box;
+				width: 100%;
+				height: 10%;
+				margin: 0;
+				padding: 0;
+				background-color: lavender;
+				border-bottom: 4px solid lightblue;
+				border-left:  4px solid lightblue;
+			}
+
+			#headlink {
+				text-decoration: none !important;
+				color: black;
+			}
+
+			.hcont {
+				display: inline;
+			}
+			#htxt {
+				margin: 0;
+				vertical-align: middle;
+				font-weight: bolder;
+				font-size: 2em;
+			}
+
+			#himg {
+				padding: 0;
+				width: 50px;
+				vertical-align: middle;
+			}
+		</style>
 	</head>
 	<body>
-		<img src="Images/" height="100px" alt="Site Logo: Treble Clef">
+		<div id="head">
+			<a href="home.html" id="headlink">
+				<img class="hcont" id="himg" src="Images/tmp.svg" alt="Site Logo: Treble Clef">
+				<p class="hcont" id="htxt">Beginner's Guide to Enjoying Classical Music</p>
+			</a>
+		</div>
 
-		<h1>Beginner's Guide to Enjoying Classical Music</h1>
-		<a href="youtube.com">home</a> >> <a href="youtube.com">comp</a>
+		<div align="center">
+			<p class="intro">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt porta urna, ut vehicula ligula condimentum nec. Suspendisse id venenatis urna. Fusce quis vehicula tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam maximus risus id tellus aliquam, in posuere neque rhoncus. Curabitur non lectus vel metus convallis lacinia vel ut lorem. Morbi nec elit ut velit ultrices cursus. Nunc efficitur rhoncus ipsum eu molestie. Etiam erat quam, consectetur convallis venenatis vitae, lobortis vel orci. Aenean eu feugiat diam, id congue nunc. Nullam lectus neque, tempor sed diam et, sollicitudin dapibus quam. Etiam nibh arcu, consectetur at massa vel, dapibus sagittis purus. Maecenas ornare, augue eget mollis rhoncus, eros ipsum tristique nunc, ut facilisis sem nisi eget est.
+			</p>
+		</div>
+
+		<table align="center" cellspacing="0">
+			<tr>
+				<td>
+					<a href="ContentPages/Page2.html">
+						<img src="Images/history.jpg" alt="">
+						<h1 class="tcont">HISTORY</h1>
+					</a>
+				</td>
+				<td>
+					<a href="ContentPages/Page3.html">
+						<img src="Images/orchestra.jpg" alt="">
+						<h1 class="tcont">INSTRUMENTS AND THE ORCHESTRA</h1>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ContentPages/Page4.html">
+						<img id="comp" src="Images/composer.jpg" alt="">
+						<h1 class="tcont">COMPOSERS</h1>
+					</a>
+				</td>
+				<td>
+					<a href="ContentPages/Page5.html">
+						<img src="Images/piece.jpg" alt="">
+						<h1 class="tcont">PIECES</h1>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ContentPages/Page6.html">
+						<img src="Images/body.jpg" alt="">
+						<h1 class="tcont">THE BODY OF MUSIC</h1>
+					</a>
+				</td>
+				<td>
+					<a href="ContentPages/Page7.html">
+						<img src="Images/ref.jpg" alt="">
+						<h1 class="tcont">REFERENCES</h1>
+					</a>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
