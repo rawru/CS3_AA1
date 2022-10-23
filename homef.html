@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta charset="utf-8">
+			<meta name="Ralph Louie O. Gatan">
+			<meta section="Beryllium">
+		<title>Hello, Classy-class!</title>
+		<link rel="shortcut icon" href="Images/favicon static.png"/>
+		<style type="text/css">
+			html {
+				scroll-behavior: smooth;
+			}
+
+			body {
+				margin: 0;
+				background-color: lightgray;
+			}
+
+			/* HEADER */
+
+			#header {
+				margin: 0;
+				padding: 18px 50px;
+				background-color: white;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: 1;
+			}
+
+			#header-content {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 53px;
+			}
+
+			#header div div ul li {
+				list-style: none;
+				font-family: Avenir Next, sans-serif;
+				font-size: 14px;
+				padding: 0;
+				margin: 6px 21px;
+			}
+
+			#header div div ul li a {
+				font-size: 12px;
+				text-decoration: none;
+				color: black;
+				font-weight: 400;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#header div div, #header div div ul {
+				padding: 0;
+				margin: 0;
+			}
+
+			#header div div {
+				margin: 12.5px 0;
+			}
+
+			#header-left-ulDiv, #header-left-ulDiv ul li {
+				float: left;
+			}
+
+			#header-right-ulDiv, #header-right-ulDiv ul li {
+				float: right;
+			}
+
+			#header img {
+				padding: 0;
+				margin: 0 0 0 -62.5px;
+				position: fixed;
+				left: 50%;
+			}
+
+			/* BODY */
+			#MAINbodyDiv {
+				margin: 89px 0 0 0; /*change bottom value later for footer*/
+				padding: 0;
+			}
+
+			/* INTRO specific */
+
+
+			/* DISCOVER specific */
+			#discover-sectionDiv {
+				width: 100%;
+				height: 400px;
+				margin: 0;
+				padding: 0;
+			}
+
+			#discover-titleDiv img, #discover-contentDiv img {
+				display: block;
+			}
+
+			#discover-titleDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+
+			#discover-contentDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+
+			#discover-contentDiv div {
+				height: 50%;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+			}
+
+			#discover-sectionDiv img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				padding: 0;
+				margin: 0;
+			}
+
+			/* EXPLORE specific */
+
+
+			/* FOOTER */
+
+		</style>
+	</head>
+	<body>
+		<!--HEADER-->
+		<div id="header">
+			<div id="header-content">
+				<div id="header-left-ulDiv">
+					<ul>
+						<li>
+							<a href="#discover-sectionDiv">DISCOVER</a>
+						</li>
+						<li>
+							<a href="#explore-sectionDiv">EXPLORE</a>
+						</li>
+					</ul>
+				</div>
+				<a href="home.html">
+					<img src="Images/Classuide.svg" alt="LOGO">
+				</a>
+				<div id="header-right-ulDiv">
+					<ul>
+						<li>
+							<a href="">ABOUT</a>
+						</li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+
+		<div id="MAINbodyDiv">
+			<!--INTRO-->
+
+
+			<!--DISCOVER-->
+			<div id="discover-sectionDiv">
+				<div id="discover-titleDiv">
+					<img src="Images/discover.jpg" alt="DISCOVER header">
+				</div>
+				<div id="discover-contentDiv">
+					<div>
+						<img src="Images/history.jpg" alt="HISTORY banner">
+					</div>
+					<div>
+						<img src="Images/orchestra.jpg" alt="INSTRUMENTS & ORCHESTRA banner">
+					</div>
+				</div>
+			</div>
+
+			<!--EXPLORE-->
+			<div id="explore-sectionDiv">
+				<div>
+					<img src="Images/body.jpg" alt="EXPLORE header">
+				</div>
+				<div id="explore-contentDiv">
+					<div>
+						<img src="Images/composer.jpg" alt="COMPOSERS banner">
+					</div>
+					<div>
+						<img src="Images/piece.jpg" alt="PIECES banner">
+					</div>
+					<div>
+						<img src="Images/bodymusic.jpg" alt="BODY OF MUSIC banner">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+
+
+	</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta charset="utf-8">
+			<meta name="Ralph Louie O. Gatan">
+			<meta section="Beryllium">
+		<title>Hello, Classy-class!</title>
+		<link rel="shortcut icon" href="Images/favicon static.png"/>
+		<style type="text/css">
+			html {
+				scroll-behavior: smooth;
+			}
+
+			body {
+				margin: 0;
+				background-color: white;
+			}
+
+			/* HEADER */
+
+			#header {
+				margin: 0;
+				padding: 18px 50px;
+				background-color: white;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: 1;
+			}
+
+			#header-content {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 53px;
+			}
+
+			#header div div ul li {
+				list-style: none;
+				font-family: Avenir Next, sans-serif;
+				font-size: 14px;
+				padding: 0;
+				margin: 6px 21px;
+			}
+
+			#header div div ul li a {
+				font-size: 12px;
+				text-decoration: none;
+				color: black;
+				font-weight: 400;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#header div div, #header div div ul {
+				padding: 0;
+				margin: 0;
+			}
+
+			#header div div {
+				margin: 12.5px 0;
+			}
+
+			#header-left-ulDiv, #header-left-ulDiv ul li {
+				float: left;
+			}
+
+			#header-right-ulDiv, #header-right-ulDiv ul li {
+				float: right;
+			}
+
+			#header img {
+				padding: 0;
+				margin: 0 0 0 -62.5px;
+				position: fixed;
+				left: 50%;
+			}
+
+			#headerHR {
+				margin-bottom: 0;
+				padding: 0;
+			}
+
+			/* BODY */
+			#MAINbodyDiv {
+				margin: 99px 0 0 0; /*change bottom value later for footer*/
+				padding: 99px 0 0 0;
+			}
+
+			/* INTRO specific */
+			#introDiv {
+				margin: 0;
+				padding: 0 42px;
+			}
+
+			#intro-txtDiv {
+				width: 100%;
+				padding: 0;
+				margin: 0;
+			}
+
+			#intro-p {
+				width: 100%;
+				margin: 99px 0 0 0;
+				text-align: justify;
+				font-size: 20px; /* to change with amount of text */
+				text-decoration: none;
+				color: black;
+				font-weight: 400;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .1em;
+    			text-transform: none;
+			}
+
+			#intro-imgDiv {
+				width: 100%;
+				height: 601px;
+				overflow: hidden;
+			}
+
+			#intro-imgDiv img {
+				width: 100%;
+			}
+
+			/* DISCOVER specific */
+			#discover-sectionDiv {
+				width: 100%;
+				height: 400px;
+				margin: 0;
+				padding: 99px 0 0 0;
+			}
+
+			#discover-titleDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+
+			#discover-contentDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+
+			#discover-contentDiv div {
+				padding: 0;
+				margin: 0;
+				height: 50%;
+				width: 100%;
+				position: relative;
+			}
+
+			#discover-title-textDiv {
+				text-align: center;
+				position: absolute;
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#discover-title-textDiv p {
+				font-size: 12px;
+				text-decoration: none;
+				color: white;
+				font-weight: 600;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#discover-contentDiv p {
+				font-size: 12px;
+				text-decoration: none;
+				color: black;
+				font-weight: 400;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+
+    			text-align: center;
+				position: absolute;
+				top: 65%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#discover-title-textDiv h1 {
+				font-size: 3em;
+				text-decoration: none;
+				color: white;
+				font-weight: 800;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#discover-contentDiv h1 {
+				font-size: 1.8em;
+				text-decoration: none;
+				color: black;
+				font-weight: 700;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+    			margin-top: 0;
+    			margin-bottom: 0;
+
+    			text-align: center;
+				position: absolute;
+				top: 25%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#discover-sectionDiv img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				padding: 0;
+				margin: 0;
+			}
+
+			/* EXPLORE specific */
+			#explore-sectionDiv {
+				width: 100%;
+				height: 600px;
+				margin: 0;
+				padding: 0;
+			}
+
+			#explore-titleDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+
+			#explore-contentDiv {
+				width: 50%;
+				height: 100%;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+
+			#explore-contentDiv div {
+				padding: 0;
+				margin: 0;
+				height: 33.333333%;
+				height: calc(100% / 3);
+				width: 100%;
+				position: relative;
+			}
+
+			#explore-title-textDiv {
+				text-align: center;
+				position: absolute;
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#explore-title-textDiv p {
+				font-size: 12px;
+				text-decoration: none;
+				color: white;
+				font-weight: 600;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#explore-contentDiv p {
+				font-size: 12px;
+				text-decoration: none;
+				color: black;
+				font-weight: 400;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+
+    			text-align: center;
+				position: absolute;
+				top: 65%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#explore-title-textDiv h1 {
+				font-size: 3em;
+				text-decoration: none;
+				color: white;
+				font-weight: 800;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+			}
+
+			#explore-contentDiv h1 {
+				font-size: 1.8em;
+				text-decoration: none;
+				color: black;
+				font-weight: 700;
+				font-style: normal;
+				transition: color .2s ease-in-out;
+    			letter-spacing: .2em;
+    			text-transform: uppercase;
+    			margin-top: 0;
+    			margin-bottom: 0;
+
+    			text-align: center;
+				position: absolute;
+				top: 25%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#explore-sectionDiv img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				padding: 0;
+				margin: 0;
+			}
+
+			/* FOOTER */
+			#footer {
+				margin: 0;
+				padding: 6px 21px;
+				background-color: black;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!--HEADER-->
+		<div id="header">
+			<div id="header-content">
+				<div id="header-left-ulDiv">
+					<ul>
+						<li>
+							<a href="#discover-sectionDiv">DISCOVER</a>
+						</li>
+						<li>
+							<a href="#explore-sectionDiv">EXPLORE</a>
+						</li>
+						<li>
+							<a href="#MAINbodyDiv">BACK TO TOP</a>
+						</li>
+					</ul>
+				</div>
+				<a href="home.html">
+					<img src="Images/Classuide.svg" alt="LOGO">
+				</a>
+				<div id="header-right-ulDiv">
+					<ul>
+						<li>
+							<a href="">ABOUT</a>
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<hr id="headerHR">
+		</div>
+
+		<div id="MAINbodyDiv">
+			<!--INTRO-->
+			<div id="introDiv">
+				<div id="intro-imgDiv">
+					<img src="Images/homebanner.jpg" alt="Large Sakura-like tree with a piano and cello under.">
+				</div>
+				<div id="intro-txtDiv">
+					<p id="intro-p">
+						Lorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonteLorem ipsum dolor set ikinma sfoas afiasdn jien vont faire fais fait faise vonte
+					</p>
+				</div>
+			</div>
+
+			<!--DISCOVER-->
+			<div id="discover-sectionDiv">
+				<div id="discover-titleDiv">
+					<img src="Images/discover.jpg" alt="DISCOVER header">
+					<div id="discover-title-textDiv">
+						<h1>DISCOVER</h1>
+						<p>the reality beyond music</p>						
+					</div>
+				</div>
+				<div id="discover-contentDiv">
+					<a href="ContentPages/Page2.html">
+						<div id="discover-content-topDiv">
+							<h1>History</h1>
+							<p>Start your dive into the history of what progressed the beauty of music.</p>
+						</div>
+					</a>
+					<a href="ContentPages/Page3.html">
+						<div>
+							<h1>Instruments and The Orchestra</h1>
+							<p>The vice of music;<br>to what it gifts to our hearts -<br>it's only beauty.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!--EXPLORE-->
+			<div id="explore-sectionDiv">
+				<div id="explore-contentDiv">
+					<a href="ContentPages/Page4.html">
+						<div id="explore-content-topDiv">
+							<h1>Composers</h1>
+							<p>have may maestros the glory they deserve</p>
+						</div>
+					</a>
+					<a href="ContentPages/Page5.html">
+						<div>
+							<h1>Pieces</h1>
+							<p>explore the thousands of masterpieces, the physical embodiment of music</p>
+						</div>
+					</a>
+					<a href="ContentPages/Page6.html">
+						<div>
+							<h1>The Body of Music</h1>
+							<p>mind to body; body to paper;<br>and then paper to music.<br>music is the mind speaking.</p>
+						</div>
+					</a>
+				</div>
+				<div id="explore-titleDiv">
+					<img src="Images/explore.jpg" alt="EXPLORE header">
+					<div id="explore-title-textDiv">
+						<h1>EXPLORE</h1>
+						<p>the wonders of music spanning centuries</p>						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div id="footer">
+			
+		</div>
+
+	</body>
+</html>

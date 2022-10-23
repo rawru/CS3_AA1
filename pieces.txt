@@ -1,0 +1,82 @@
+--- easy ---
+Beethoven
+Symphony:
+5: 1st, 2nd
+6: 1st
+7: 1st
+9: 1-4
+Fur elise
+Kreutzer sonata
+moonlight sonata 1st
+pathetique sonata: 2,3 mov
+
+Tchai
+Slave marsche
+symphony 4
+symphony 5
+piano concerto 1: 1st
+violin concerto 1: 1-3
+sleeping beauty
+dance of the sugar plum fairy
+the nutcracker
+
+Mozart
+marsch der priester (march of the priests: inspiration for canada national anthem)
+queen of the night
+symphony no. 40
+reqiuem:
+	dies irae
+	kyrie
+	confutatis maledictis
+
+Bach
+air on g
+biolin sonata for solo no2
+
+Chopin
+spring waltz
+ballade no. 1
+wrong note etude
+
+
+Love's sorrow
+flower duet
+o mio babbino caro
+note: the barber (opera)
+canon in d
+four seasons
+ave maria
+clair de lune
+rachmaninoff piano concerto 1,2
+ride of the valkaries
+dvorak: 9th symphony
+cello concerto 1: 1st
+boccherini: minuet
+saint-seans: samuel and delilah
+saint-seans: rondo and capriccioso
+sibelius violin concerto: 1-3
+habanera
+carmen
+the morning: grieg
+grieg piano concerto: 1
+les grandes etudes de paganini: la campanella
+italian symphony
+mendelssohn violin concerto 1: 1st
+
+--- next level ---
+
+The planets: jupiter
+symphony 6: tchai
+chaconne: bach
+
+paganini: 
+caprice 24
+violin concerto 1: 1-3
+violin concerto 2: 3rd
+
+jupiter symphony: Mozart
+
+brahms:
+violin concerto 1: 1st
+
+verdi: dies irae
